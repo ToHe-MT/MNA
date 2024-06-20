@@ -285,8 +285,7 @@
         <h1 class="text-lg md:text-xl font-semibold text-center">Izin Resmi</h1>
         <p class="text-center text-gray-500">
           Travel Haji dan Umroh dengan Izin Resmi yang pastinya memberikan
-          keamanan dan kenyamanan selama beribadah. Izin PPIU No
-          21062200216980001.
+          keamanan dan kenyamanan selama beribadah.
         </p>
       </div>
     </div>
@@ -674,9 +673,9 @@
   </div>
 </div>
 
-<div class="min-h-[30vh] w-full bg-blue-900 p-12">
-  <div class="flex flex-col lg:flex-row gap-4">
-    <div class="flex justify-center items-center w-full md:w-[300px] p-12 px-4">
+<div class="min-h-[30vh] w-full bg-blue-900 p-6">
+  <div class="flex flex-col lg:flex-row gap-4 py-6 md:py-12 md:px-12">
+    <div class="flex justify-center items-center w-full md:w-[400px] p-4 md:p-12 px-4 ">
       <img
         src="./mnatravel-logo.png"
         alt=""
@@ -684,7 +683,7 @@
       />
     </div>
     <div
-      class="flex flex-col justify-center items-center md:items-start text-blue-200 gap-4 p-10 py-0 md:pt-10 md:mr-auto md:px-0"
+      class="flex flex-col justify-center items-center md:items-start text-blue-200 gap-4 p-10 py-0 md:pt-10 md:mr-auto md:px-12 text-center md:text-left"
     >
       <p>PT MNA Group International</p>
       <p>
@@ -692,7 +691,15 @@
           0822-4040-6568
         </a>
       </p>
-      <p>PT MNA Group International</p>
+      <p>
+        <a
+          href="https://maps.app.goo.gl/zn92phrH1Uyebe117"
+          class="font-medium"
+        >
+          Jl. Raya Condet No.35, RT.5/RW.4, Batu Ampar, Kec. Kramat jati, Kota
+          Jakarta Timur, Daerah Khusus Ibukota Jakarta 13530
+        </a>
+      </p>
       <div class="py-4">
         <a
           href="https://wa.me/6282240406568"

@@ -1,0 +1,26 @@
+# fly.toml app configuration file generated for mna on 2024-06-20T16:28:32+07:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'mna'
+primary_region = 'sin'
+
+[build]
+
+[env]
+  VITE_S3_PUBLIC_URL = 'https://storage.kartikamas.id'
+  VITE_S3_PUBLIC_URL_2 = 'https://storage2.kartikamas.id'
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '256mb'
+  cpu_kind = 'shared'
+  cpus = 1
