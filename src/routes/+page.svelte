@@ -23,7 +23,7 @@
 </svelte:head>
 
 <div
-  class="bg-gradient-to-b from-blue-400 to-blue-900 h-screen grid grid-cols-1 md:grid-cols-2 relative py-32 md:py-0"
+  class="bg-gradient-to-b from-blue-400 to-blue-900 h-screen grid grid-cols-1 md:grid-cols-2 relative py-32 md:py-0 px-5 sm:px-0"
 >
   <div class="absolute -bottom-2 z-20 w-full">
     <svg
@@ -47,10 +47,7 @@
     >
   </div>
   <div class="flex flex-col justify-center items-center gap-6">
-    <h1 class="font-bold text-4xl text-center">
-      <span class="text-white">MNA</span>
-      <span class="text-blue-200">Travel</span>
-    </h1>
+    <img src="./logo-white.png" alt="" class="max-w-60" />
     <p class="font-semibold text-white text-center">
       Umroh Murah - Umroh Mudah - Umroh Berkah
     </p>
@@ -481,25 +478,6 @@
       <button
         type="button"
         on:click={() => {
-          infoPaket("UMROH PRECIOUS");
-        }}
-      >
-        <img src="./2.png" alt="" /></button
-      >
-      <div class="flex flex-col text-center justify-center items-center">
-        <h1 class="text-xl font-medium text-blue-900">UMROH PRECIOUS</h1>
-        <p class="text-gray-600">Program 9 Hari</p>
-        <p class="text-gray-600">Fasilitas Hotel Bintang 4</p>
-        <br />
-        <p class="text-gray-600">Keberangkatan 18 Agustus 2024</p>
-        <p class="text-gray-600">Direct Fly Tanpa Transit</p>
-        <p></p>
-      </div>
-    </div>
-    <div>
-      <button
-        type="button"
-        on:click={() => {
           infoPaket("UMROH EXCLUSIVE");
         }}
       >
@@ -548,7 +526,6 @@
         <p class="text-gray-600">Program 10 Hari</p>
         <p class="text-gray-600">Fasilitas Hotel Bintang 4</p>
         <br />
-        <p class="text-gray-600">Keberangkatan 18 Agustus 2024</p>
         <p class="text-gray-600">Direct Fly Tanpa Transit by Saudi/Garuda</p>
         <p></p>
       </div>
@@ -675,7 +652,9 @@
 
 <div class="min-h-[30vh] w-full bg-blue-900 p-6">
   <div class="flex flex-col lg:flex-row gap-4 py-6 md:py-12 md:px-12">
-    <div class="flex justify-center items-center w-full md:w-[400px] p-4 md:p-12 px-4 ">
+    <div
+      class="flex justify-center items-center w-full md:w-[400px] p-4 md:p-12 px-4"
+    >
       <img
         src="./mnatravel-logo.png"
         alt=""
@@ -692,10 +671,7 @@
         </a>
       </p>
       <p>
-        <a
-          href="https://maps.app.goo.gl/zn92phrH1Uyebe117"
-          class="font-medium"
-        >
+        <a href="https://maps.app.goo.gl/zn92phrH1Uyebe117" class="font-medium">
           Jl. Raya Condet No.35, RT.5/RW.4, Batu Ampar, Kec. Kramat jati, Kota
           Jakarta Timur, Daerah Khusus Ibukota Jakarta 13530
         </a>
