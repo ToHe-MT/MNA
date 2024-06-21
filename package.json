@@ -20,6 +20,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-node": "^5.2.0"
+		"@sveltejs/adapter-node": "^5.2.0",
+		"svelte-inview": "^4.0.2"
 	}
 }
