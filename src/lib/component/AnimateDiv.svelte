@@ -2,7 +2,7 @@
   import { inview } from "svelte-inview";
   let isInView = false;
   const options = {
-    rootMargin: "-70px",
+    rootMargin: "-40px",
     unobserveOnEnter: true,
   };
 

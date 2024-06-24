@@ -57,13 +57,20 @@
       ></path></svg
     >
   </div>
-  <AnimateDiv className="flex flex-col justify-center items-center gap-6" beforeAnimated="opacity-0 translate-y-96" duration="duration-1000">
+  <AnimateDiv
+    className="flex flex-col justify-center items-center gap-6"
+    beforeAnimated="opacity-0 translate-y-96"
+    duration="duration-1000"
+  >
     <img src="./logo-white.png" alt="" class="max-w-60" />
     <p class="font-semibold text-white text-center">
       Umroh Murah - Umroh Mudah - Umroh Berkah
     </p>
   </AnimateDiv>
-  <AnimateDiv className="flex justify-center items-center" duration="duration-1000">
+  <AnimateDiv
+    className="flex justify-center items-center"
+    duration="duration-1000"
+  >
     <a
       href="https://wa.me/6282240406568"
       target="_blank"
@@ -96,7 +103,7 @@
           </g></svg
         >
       </div>
-      <span class="text-lg "> Hubungi Kami </span>
+      <span class="text-lg"> Hubungi Kami </span>
     </a>
   </AnimateDiv>
 </div>
@@ -129,10 +136,10 @@
   </div>
 </AnimateDiv>
 
-<AnimateDiv
-  className="min-h-screen w-full flex flex-col items-center justify-center gap-12 py-20 bg-blue-100/50"
+<div
+  class="min-h-screen w-full flex flex-col items-center justify-center gap-12 py-20 bg-blue-100/50"
 >
-  <div class="py-3 px-5 flex flex-col gap-5">
+  <AnimateDiv className="py-3 px-5 flex flex-col gap-5">
     <h1 class="font-bold text-2xl md:text-3xl text-center text-black">
       Lihat apa kata mereka yang <span class="text-blue-500"
         >telah melaksanakan Ibadah Umroh</span
@@ -141,8 +148,10 @@
     <p class="text-center font-semibold text-lg md:text-xl">
       Berikut ini beberapa cerita dari jamaah MNA Travel
     </p>
-  </div>
-  <div class="grid grid-cols-1 md:grid-cols-2 w-full last:col-span-2">
+  </AnimateDiv>
+  <AnimateDiv
+    className="grid grid-cols-1 md:grid-cols-2 w-full last:col-span-2"
+  >
     <div class="flex flex-col justify-start items-center w-full gap-4 p-5">
       <img src="./star.png" alt="" />
       <p class="text-center text-lg">
@@ -194,19 +203,21 @@
         />
       </div>
     </div>
-  </div>
-</AnimateDiv>
+  </AnimateDiv>
+</div>
 
-<AnimateDiv
-  className="min-h-screen w-full flex flex-col items-center justify-center gap-12 py-24 bg-blue-900"
+<div
+  class="min-h-screen w-full flex flex-col items-center justify-center gap-12 py-24 bg-blue-900"
 >
-  <div class="py-3 px-5">
+  <AnimateDiv className="py-3 px-5">
     <h1 class="font-bold text-3xl md:text-4xl text-center text-white">
       Mengapa harus <span class="text-blue-200">Haji & Umroh</span> bersama kami
       ?
     </h1>
-  </div>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-10">
+  </AnimateDiv>
+  <AnimateDiv
+    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-10"
+  >
     <div
       class="bg-white rounded-lg h-full flex flex-col justify-start items-center gap-8 p-8"
     >
@@ -446,8 +457,8 @@
         </p>
       </div>
     </div>
-  </div>
-</AnimateDiv>
+  </AnimateDiv>
+</div>
 
 <AnimateDiv
   className="min-h-screen w-full flex flex-col items-center justify-center gap-2.5 py-16"
@@ -465,28 +476,31 @@
   </div>
 </AnimateDiv>
 
-<AnimateDiv
-  className="h-[50vh] w-full flex flex-col items-center justify-center gap-2.5 py-16 bg-blue-100"
+<div
+  class="h-[50vh] w-full flex flex-col items-center justify-center gap-2.5 py-16 bg-blue-100"
 >
-  <div class="flex flex-col justify-center items-center gap-4 py-3 px-5">
+  <AnimateDiv
+    className="flex flex-col justify-center items-center gap-4 py-3 px-5"
+  >
     <h1 class="font-bold text-3xl md:text-4xl text-center text-black">
       <span class="text-blue-500">Pilihan Paket Terbaik</span> Umroh
     </h1>
     <h1 class="font-bold text-3xl md:text-4xl text-center">
       <span class="text-blue-500">Tahun 2024 M</span> - Musim 1446 H
     </h1>
-  </div>
-</AnimateDiv>
+  </AnimateDiv>
+</div>
 
-<AnimateDiv
-  className="min-h-screen w-full flex flex-col items-center justify-start gap-2.5 py-16 bg-gray-200"
+<div
+  class="min-h-screen w-full flex flex-col items-center justify-start gap-2.5 py-16 bg-gray-200"
 >
-  <div class="text-center pb-16">
+  <AnimateDiv className="text-center pb-16">
     <p class="text-blue-500 text-center">Klik Gambar untuk Detail Paket</p>
-  </div>
-  <div class="grid md:grid-cols-2 lg:grid-cols-3 px-10 gap-10">
+  </AnimateDiv>
+  <AnimateDiv className="grid md:grid-cols-2 lg:grid-cols-3 px-10 gap-10">
     <div>
       <button
+        name="clickDetail1"
         type="button"
         on:click={() => {
           infoPaket("UMROH EXCLUSIVE");
@@ -506,6 +520,7 @@
     </div>
     <div>
       <button
+        name="clickDetail2"
         type="button"
         on:click={() => {
           infoPaket("UMROH SUPER HEMAT");
@@ -525,6 +540,7 @@
     </div>
     <div>
       <button
+        name="clickDetail3"
         type="button"
         on:click={() => {
           infoPaket("UMROH EXCLUSIVE DUBAI");
@@ -541,18 +557,18 @@
         <p></p>
       </div>
     </div>
-  </div>
-</AnimateDiv>
+  </AnimateDiv>
+</div>
 
-<AnimateDiv
-  className="bg-gradient-to-b from-blue-400 to-blue-900 min-h-[50vh] py-32 md:py-0 flex flex-col justify-center items-center gap-24 w-full"
+<div
+  class="bg-gradient-to-b from-blue-400 to-blue-900 min-h-[50vh] py-32 md:py-0 flex flex-col justify-center items-center gap-24 w-full"
 >
-  <div class="flex flex-col justify-center items-center gap-6 px-5">
+  <AnimateDiv className="flex flex-col justify-center items-center gap-6 px-5">
     <h1 class="font-bold text-3xl md:text-4xl text-center text-white">
       Ingat !!! Pilih Travel Haji & Umroh dengan izin Resmi
     </h1>
-  </div>
-  <div class="grid md:grid-cols-3 w-full px-10 gap-12">
+  </AnimateDiv>
+  <AnimateDiv className="grid md:grid-cols-3 w-full px-10 gap-12">
     <div class="bg-white rounded-lg w-full relative my-4">
       <div
         class="flex flex-col justify-center items-center gap-4 text-center min-h-[220px]"
@@ -598,8 +614,8 @@
         </div>
       </div>
     </div>
-  </div>
-</AnimateDiv>
+  </AnimateDiv>
+</div>
 
 <AnimateDiv
   className="h-[50vh] w-full flex flex-col items-center justify-center gap-2.5 py-16 bg-blue-100"
@@ -620,6 +636,7 @@
       </p>
     </div>
     <button
+      name="clickDiskon"
       on:click={() => {
         diskonWhatsapp();
       }}
