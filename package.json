@@ -21,6 +21,7 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-node": "^5.2.0",
+		"mongodb": "^6.7.0",
 		"svelte-inview": "^4.0.2"
 	}
 }
