@@ -513,7 +513,6 @@
         <p class="text-gray-600">Program 9 Hari</p>
         <p class="text-gray-600">Fasilitas Hotel Bintang 5</p>
         <br />
-        <p class="text-gray-600">Keberangkatan 18 Agustus 2024</p>
         <p class="text-gray-600">Direct Fly Tanpa Transit</p>
         <p></p>
       </div>
@@ -533,7 +532,6 @@
         <p class="text-gray-600">Program 9 Hari</p>
         <p class="text-gray-600">Fasilitas Hotel Bintang 3</p>
         <br />
-        <p class="text-gray-600">Keberangkatan 18 Agustus 2024</p>
         <p class="text-gray-600">Penerbangan Transit By Emirates</p>
         <p></p>
       </div>
@@ -694,8 +692,13 @@
     >
       <p>PT MNA Group International</p>
       <p>
-        Admin: <a href="https://wa.me/6282240406568" class="font-semibold">
+        Admin 1: <a href="https://wa.me/6282240406568" class="font-semibold">
           0822-4040-6568
+        </a>
+      </p>
+      <p>
+        Admin 2: <a href="https://wa.me/6282240406569" class="font-semibold">
+          0822-4040-6569
         </a>
       </p>
       <p>
